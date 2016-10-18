@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C2F113961DB5D54B002F3189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F113951DB5D54B002F3189 /* AppDelegate.swift */; };
-		C2F113981DB5D54B002F3189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F113971DB5D54B002F3189 /* ViewController.swift */; };
+		C2F113981DB5D54B002F3189 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F113971DB5D54B002F3189 /* MusicViewController.swift */; };
 		C2F1139B1DB5D54B002F3189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F113991DB5D54B002F3189 /* Main.storyboard */; };
 		C2F1139D1DB5D54B002F3189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F1139C1DB5D54B002F3189 /* Assets.xcassets */; };
 		C2F113A01DB5D54B002F3189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F1139E1DB5D54B002F3189 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		C2F113921DB5D54B002F3189 /* myhue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myhue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F113951DB5D54B002F3189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2F113971DB5D54B002F3189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F113971DB5D54B002F3189 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		C2F1139A1DB5D54B002F3189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2F1139C1DB5D54B002F3189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F1139F1DB5D54B002F3189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C2F113951DB5D54B002F3189 /* AppDelegate.swift */,
-				C2F113971DB5D54B002F3189 /* ViewController.swift */,
+				C2F113971DB5D54B002F3189 /* MusicViewController.swift */,
 				C2F113991DB5D54B002F3189 /* Main.storyboard */,
 				C2F1139C1DB5D54B002F3189 /* Assets.xcassets */,
 				C2F1139E1DB5D54B002F3189 /* LaunchScreen.storyboard */,
@@ -193,13 +193,16 @@
 				TargetAttributes = {
 					C2F113911DB5D54B002F3189 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					C2F113A51DB5D54B002F3189 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = C2F113911DB5D54B002F3189;
 					};
 					C2F113B01DB5D54C002F3189 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = C2F113911DB5D54B002F3189;
 					};
 				};
@@ -256,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F113981DB5D54B002F3189 /* ViewController.swift in Sources */,
+				C2F113981DB5D54B002F3189 /* MusicViewController.swift in Sources */,
 				C2F113961DB5D54B002F3189 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +406,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.myhue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.myhue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +430,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myhue.app/myhue";
 			};
 			name = Debug;
@@ -437,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myhue.app/myhue";
 			};
 			name = Release;
@@ -448,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = myhue;
 			};
 			name = Debug;
@@ -459,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = myhue;
 			};
 			name = Release;
@@ -482,6 +491,7 @@
 				C2F113BC1DB5D54C002F3189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F113BD1DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhueTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +500,7 @@
 				C2F113BF1DB5D54C002F3189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F113C01DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhueUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +509,7 @@
 				C2F113C21DB5D54C002F3189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
