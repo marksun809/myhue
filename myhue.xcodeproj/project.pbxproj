@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F113961DB5D54B002F3189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F113951DB5D54B002F3189 /* AppDelegate.swift */; };
+		C2F113981DB5D54B002F3189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F113971DB5D54B002F3189 /* ViewController.swift */; };
+		C2F1139B1DB5D54B002F3189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F113991DB5D54B002F3189 /* Main.storyboard */; };
+		C2F1139D1DB5D54B002F3189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F1139C1DB5D54B002F3189 /* Assets.xcassets */; };
+		C2F113A01DB5D54B002F3189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F1139E1DB5D54B002F3189 /* LaunchScreen.storyboard */; };
+		C2F113AB1DB5D54B002F3189 /* myhueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F113AA1DB5D54B002F3189 /* myhueTests.swift */; };
+		C2F113B61DB5D54C002F3189 /* myhueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F113B51DB5D54C002F3189 /* myhueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F113A71DB5D54B002F3189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F1138A1DB5D54B002F3189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F113911DB5D54B002F3189;
+			remoteInfo = myhue;
+		};
+		C2F113B21DB5D54C002F3189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F1138A1DB5D54B002F3189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F113911DB5D54B002F3189;
+			remoteInfo = myhue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2F113921DB5D54B002F3189 /* myhue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myhue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F113951DB5D54B002F3189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2F113971DB5D54B002F3189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F1139A1DB5D54B002F3189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F1139C1DB5D54B002F3189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F1139F1DB5D54B002F3189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F113A11DB5D54B002F3189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F113A61DB5D54B002F3189 /* myhueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myhueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F113AA1DB5D54B002F3189 /* myhueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myhueTests.swift; sourceTree = "<group>"; };
+		C2F113AC1DB5D54C002F3189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F113B11DB5D54C002F3189 /* myhueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myhueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F113B51DB5D54C002F3189 /* myhueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myhueUITests.swift; sourceTree = "<group>"; };
+		C2F113B71DB5D54C002F3189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F1138F1DB5D54B002F3189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F113A31DB5D54B002F3189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F113AE1DB5D54C002F3189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F113891DB5D54B002F3189 = {
+			isa = PBXGroup;
+			children = (
+				C2F113941DB5D54B002F3189 /* myhue */,
+				C2F113A91DB5D54B002F3189 /* myhueTests */,
+				C2F113B41DB5D54C002F3189 /* myhueUITests */,
+				C2F113931DB5D54B002F3189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F113931DB5D54B002F3189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F113921DB5D54B002F3189 /* myhue.app */,
+				C2F113A61DB5D54B002F3189 /* myhueTests.xctest */,
+				C2F113B11DB5D54C002F3189 /* myhueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F113941DB5D54B002F3189 /* myhue */ = {
+			isa = PBXGroup;
+			children = (
+				C2F113951DB5D54B002F3189 /* AppDelegate.swift */,
+				C2F113971DB5D54B002F3189 /* ViewController.swift */,
+				C2F113991DB5D54B002F3189 /* Main.storyboard */,
+				C2F1139C1DB5D54B002F3189 /* Assets.xcassets */,
+				C2F1139E1DB5D54B002F3189 /* LaunchScreen.storyboard */,
+				C2F113A11DB5D54B002F3189 /* Info.plist */,
+			);
+			path = myhue;
+			sourceTree = "<group>";
+		};
+		C2F113A91DB5D54B002F3189 /* myhueTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F113AA1DB5D54B002F3189 /* myhueTests.swift */,
+				C2F113AC1DB5D54C002F3189 /* Info.plist */,
+			);
+			path = myhueTests;
+			sourceTree = "<group>";
+		};
+		C2F113B41DB5D54C002F3189 /* myhueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F113B51DB5D54C002F3189 /* myhueUITests.swift */,
+				C2F113B71DB5D54C002F3189 /* Info.plist */,
+			);
+			path = myhueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F113911DB5D54B002F3189 /* myhue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F113BA1DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhue" */;
+			buildPhases = (
+				C2F1138E1DB5D54B002F3189 /* Sources */,
+				C2F1138F1DB5D54B002F3189 /* Frameworks */,
+				C2F113901DB5D54B002F3189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myhue;
+			productName = myhue;
+			productReference = C2F113921DB5D54B002F3189 /* myhue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F113A51DB5D54B002F3189 /* myhueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F113BD1DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhueTests" */;
+			buildPhases = (
+				C2F113A21DB5D54B002F3189 /* Sources */,
+				C2F113A31DB5D54B002F3189 /* Frameworks */,
+				C2F113A41DB5D54B002F3189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F113A81DB5D54B002F3189 /* PBXTargetDependency */,
+			);
+			name = myhueTests;
+			productName = myhueTests;
+			productReference = C2F113A61DB5D54B002F3189 /* myhueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2F113B01DB5D54C002F3189 /* myhueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F113C01DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhueUITests" */;
+			buildPhases = (
+				C2F113AD1DB5D54C002F3189 /* Sources */,
+				C2F113AE1DB5D54C002F3189 /* Frameworks */,
+				C2F113AF1DB5D54C002F3189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F113B31DB5D54C002F3189 /* PBXTargetDependency */,
+			);
+			name = myhueUITests;
+			productName = myhueUITests;
+			productReference = C2F113B11DB5D54C002F3189 /* myhueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F1138A1DB5D54B002F3189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mark Sun";
+				TargetAttributes = {
+					C2F113911DB5D54B002F3189 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C2F113A51DB5D54B002F3189 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2F113911DB5D54B002F3189;
+					};
+					C2F113B01DB5D54C002F3189 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2F113911DB5D54B002F3189;
+					};
+				};
+			};
+			buildConfigurationList = C2F1138D1DB5D54B002F3189 /* Build configuration list for PBXProject "myhue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F113891DB5D54B002F3189;
+			productRefGroup = C2F113931DB5D54B002F3189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F113911DB5D54B002F3189 /* myhue */,
+				C2F113A51DB5D54B002F3189 /* myhueTests */,
+				C2F113B01DB5D54C002F3189 /* myhueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F113901DB5D54B002F3189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F113A01DB5D54B002F3189 /* LaunchScreen.storyboard in Resources */,
+				C2F1139D1DB5D54B002F3189 /* Assets.xcassets in Resources */,
+				C2F1139B1DB5D54B002F3189 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F113A41DB5D54B002F3189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F113AF1DB5D54C002F3189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F1138E1DB5D54B002F3189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F113981DB5D54B002F3189 /* ViewController.swift in Sources */,
+				C2F113961DB5D54B002F3189 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F113A21DB5D54B002F3189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F113AB1DB5D54B002F3189 /* myhueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F113AD1DB5D54C002F3189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F113B61DB5D54C002F3189 /* myhueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F113A81DB5D54B002F3189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F113911DB5D54B002F3189 /* myhue */;
+			targetProxy = C2F113A71DB5D54B002F3189 /* PBXContainerItemProxy */;
+		};
+		C2F113B31DB5D54C002F3189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F113911DB5D54B002F3189 /* myhue */;
+			targetProxy = C2F113B21DB5D54C002F3189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F113991DB5D54B002F3189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F1139A1DB5D54B002F3189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F1139E1DB5D54B002F3189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F1139F1DB5D54B002F3189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F113B81DB5D54C002F3189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2F113B91DB5D54C002F3189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F113BB1DB5D54C002F3189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myhue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.myhue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2F113BC1DB5D54C002F3189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myhue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.myhue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2F113BE1DB5D54C002F3189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myhueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myhue.app/myhue";
+			};
+			name = Debug;
+		};
+		C2F113BF1DB5D54C002F3189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myhueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myhue.app/myhue";
+			};
+			name = Release;
+		};
+		C2F113C11DB5D54C002F3189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myhueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myhue;
+			};
+			name = Debug;
+		};
+		C2F113C21DB5D54C002F3189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myhueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.myhueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myhue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F1138D1DB5D54B002F3189 /* Build configuration list for PBXProject "myhue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F113B81DB5D54C002F3189 /* Debug */,
+				C2F113B91DB5D54C002F3189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F113BA1DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F113BB1DB5D54C002F3189 /* Debug */,
+				C2F113BC1DB5D54C002F3189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2F113BD1DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F113BE1DB5D54C002F3189 /* Debug */,
+				C2F113BF1DB5D54C002F3189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2F113C01DB5D54C002F3189 /* Build configuration list for PBXNativeTarget "myhueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F113C11DB5D54C002F3189 /* Debug */,
+				C2F113C21DB5D54C002F3189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F1138A1DB5D54B002F3189 /* Project object */;
+}
